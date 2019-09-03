@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h1>
+   {{ title }}!
+  </h1>
+  </div>
+<app-stock-item
+  [stock] = "stock"
+  (toggleFavorite) = "onToggleFavorite($event)">
+</app-stock-item>
+<button (click)="changeStockObject()">Change Stock</button>
+<button (click)="changeStockPrice()">Change Price</button>
+
+<hr>
+<h1>Exercise</h1>
+<app-product-item></app-product-item>
+<router-outlet></router-outlet>

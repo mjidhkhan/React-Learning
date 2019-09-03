@@ -40,9 +40,12 @@ function Footer()  {
         textColor="primary"
         centered
       >
-        <Tab label="Item One" />
-        <Tab label="Item Two" />
-        <Tab label="Item Three" />
+        <Tab label="All" />
+        <Tab label="Shoulders" />
+        <Tab label="Chest" />
+        <Tab label="Arms" />
+        <Tab label="Back" />
+        <Tab label="Legs" />
       </Tabs>
     </Paper>
   );
